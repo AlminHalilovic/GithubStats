@@ -1,0 +1,1 @@
+C:\Users\almin_000\OneDrive\Shared projects\GithubStats\GithubStats\GithubStats.csproj;x64

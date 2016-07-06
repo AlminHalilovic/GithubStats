@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="AmazingPullToRefresh" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="AmazingPullToRefresh">
+				<NamedResource name="AmazingPullToRefresh.xr.xml" uri="ms-resource://AmazingPullToRefresh/Files/AmazingPullToRefresh/AmazingPullToRefresh.xr.xml">
+					<Candidate type="Path">
+						<Value>AmazingPullToRefresh\AmazingPullToRefresh.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="AmazingPullToRefresh.rd.xml" uri="ms-resource://AmazingPullToRefresh/Files/AmazingPullToRefresh/Properties/AmazingPullToRefresh.rd.xml">
+						<Candidate type="Path">
+							<Value>AmazingPullToRefresh\Properties\AmazingPullToRefresh.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://AmazingPullToRefresh/Files/AmazingPullToRefresh/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

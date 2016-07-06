@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="GithubStats.LoginPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GithubStats"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+    <Grid Background="#007aff">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <RelativePanel Grid.Row="0">
+            <Image RelativePanel.Above="titleTB" RelativePanel.AlignHorizontalCenterWithPanel="True" 
+                   Source="Assets/logo.jpg" Width="40" Height="40">
+
+            </Image>
+            <TextBlock x:ConnectionId='5' Name="titleTB" FontFamily="Helvetica" FontSize="40" Margin="0 10 0 30" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                       RelativePanel.AlignBottomWithPanel="True" Foreground="White"> 
+                <Bold>Git</Bold>Stats
+            </TextBlock>
+        </RelativePanel>
+
+        <StackPanel Grid.Row="1">
+            <TextBox x:ConnectionId='1' Name="usernameTB"                              Background="White" PlaceholderText="Username" Margin="10"></TextBox>
+            <PasswordBox x:ConnectionId='2' Name="passwordTB"                              Background="White" PlaceholderText="Password" Margin="10" />
+            <TextBox x:ConnectionId='3' Name="gitUrlTB"                               Background="White" PlaceholderText="Url to GitRipper" 
+                     Margin="10 20 10 0"></TextBox>
+            <Button x:ConnectionId='4' Name="loginButton"  HorizontalAlignment="Center" Margin="0 30 0 30" BorderThickness="1"
+                    RequestedTheme="Light" Background="{x:Null}" Width="100" Height="40" Content="Login"
+                    Style="{StaticResource ButtonStyle}" BorderBrush="White"                          
+                    FontFamily="/Assets/Fonts/Roboto-Regular.ttf#Roboto"/>
+        </StackPanel>
+
+    </Grid>
+    </ScrollViewer>
+</Page>
+

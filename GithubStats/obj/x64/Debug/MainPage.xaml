@@ -1,0 +1,161 @@
+﻿<Page
+    x:Class="GithubStats.MainPage"
+    xmlns:Charting="using:WinRTXamlToolkit.Controls.DataVisualization.Charting"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GithubStats"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+    <Grid  Background="White">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:ConnectionId='1' x:Name="VisualStateGroup">
+                <VisualState x:ConnectionId='2' x:Name="VisualStateNarrow">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="lvRepository.(Grid.Row)" Value="3"/>
+                        <Setter Target="lvRepository.(Grid.Column)" Value="0"/>
+                        <Setter Target="lvRepository.(Grid.ColumnSpan)" Value="2"/>
+                        <Setter Target="PivotPlatform.(Grid.Column)" Value="0"/>
+                        <Setter Target="PivotPlatform.(Grid.ColumnSpan)" Value="2"/>
+
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:ConnectionId='3' x:Name="VisualStateWide">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="800"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="lvRepository.Margin" Value="10"/>
+                        <Setter Target="lvRepository.(Grid.Row)" Value="2"/>
+                        <Setter Target="lvRepository.(Grid.Column)" Value="1"/>
+                        <Setter Target="lvRepository.(Grid.ColumnSpan)" Value="1"/>
+                        <Setter Target="PivotPlatform.(Grid.Column)" Value="0"/>
+                        <Setter Target="PivotPlatform.(Grid.ColumnSpan)" Value="1"/>
+
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+
+
+        <CommandBar x:ConnectionId='4' Name="commandBar" HorizontalContentAlignment="Center" 
+                    Background="{StaticResource currentThemeColor}" 
+                    Grid.Row="0"
+                    VerticalContentAlignment="Center"
+                     Grid.ColumnSpan="2">
+
+
+            <AppBarButton x:ConnectionId='9' x:Name="Button" Icon="Setting" Foreground="White" HorizontalAlignment="Right">
+                <AppBarButton.Flyout>
+                    <MenuFlyout>
+
+                        <MenuFlyoutItem x:ConnectionId='10' Name="logOutButton"                            Text="Log out" />
+
+                    </MenuFlyout>
+                </AppBarButton.Flyout>
+            </AppBarButton>
+
+            <CommandBar.Content>
+                <TextBlock FontSize="28" Margin="0 0 0 5" Foreground="White" HorizontalAlignment="Center" ><Bold>Git</Bold>Stats</TextBlock>
+            </CommandBar.Content>
+        </CommandBar>
+
+        <Pivot x:ConnectionId='5' x:Name="menuPivot" Margin="0"  SelectedIndex="0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="2"                                             >
+
+            <PivotItem Header="Days" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+            <PivotItem Header="Weeks" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+            <PivotItem Header="Months" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        </Pivot>
+
+        <Pivot x:ConnectionId='6' x:Name="PivotPlatform" Margin="0" ItemsSource="{Binding PivotItemsDays}" Grid.Row="2">
+
+
+            <Pivot.HeaderTemplate>
+                <DataTemplate>
+                    <StackPanel Height="0" Width="0">
+                        <TextBlock Text="{Binding}" />
+                    </StackPanel>
+                </DataTemplate>
+            </Pivot.HeaderTemplate>
+
+            <Pivot.ItemTemplate>
+                <DataTemplate>
+                    <Grid xmlns:uwp="using:AmazingPullToRefresh.Controls">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <uwp:PullToRefreshAdorner.Extender>
+                            <uwp:PullToRefreshExtender x:ConnectionId='8'                                                           />
+                        </uwp:PullToRefreshAdorner.Extender>
+
+                        <RelativePanel x:Name="contentPanel"  Grid.Row="0" Margin="10 -30 10 10">
+                            <TextBlock Name="titleTB" Text="{Binding Title}" FontSize="12" 
+                                       RelativePanel.AlignLeftWithPanel="True"
+                                       RelativePanel.AlignTopWithPanel="True"/>
+                            <TextBlock Name="totalTB" Text="{Binding Total}" FontSize="18"
+                                   RelativePanel.AlignLeftWithPanel="True"
+                                   RelativePanel.Below="titleTB" />
+                            <ProgressBar Name="progressBar" Value="{Binding ProgressValue}" Width="100" Foreground="{StaticResource currentThemeColor}"
+                                         RelativePanel.AlignLeftWithPanel="True" RelativePanel.Below="totalTB" 
+                                         Margin="0 5 0 0"/>
+                            <TextBlock Name="dateTB" Text="{Binding Date}" FontSize="16" 
+                                   RelativePanel.AlignRightWithPanel="True"
+                                   RelativePanel.AlignTopWithPanel="True" />
+                        </RelativePanel>
+
+                        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                            <Charting:Chart Grid.Row="1" x:Name="LineChart"
+                                        Margin="10" >
+                                <Charting:LineSeries Title="" IndependentValuePath="Name" DependentValuePath="Amount" 
+                                                 IsSelectionEnabled="False" ItemsSource="{Binding Result}" />
+
+                            </Charting:Chart>
+                        </ScrollViewer>
+                    </Grid>
+                </DataTemplate>
+            </Pivot.ItemTemplate>
+
+        </Pivot>
+
+
+
+        <GridView x:ConnectionId='7' Grid.ColumnSpan="2" Grid.Row="3"  IsHitTestVisible="False" Margin="10" Name="lvRepository" ItemsSource="{Binding Repository}">
+            <GridView.ItemTemplate>
+                <DataTemplate >
+                    <StackPanel HorizontalAlignment="Left" Orientation="Vertical">
+                        <TextBlock Text="{Binding FullName}" FontWeight="Bold" FontSize="18" />
+                        <TextBlock Text="{Binding Description}" />
+
+                        <TextBlock  Foreground="Gray" Margin="0 5 0 0"  TextWrapping="WrapWholeWords" 
+                                   Text="Lorem ipsum dolor sit amet, consectetuer
+adipiscing elit, sed diam nonummy nibh euismod
+tincidunt ut laoreet dolore magna aliquam erat
+volutpat. Ut wisi enim ad minim veniam, quis
+nostrud exerci tation ullamcorper suscipit lobortis
+nisl ut aliquip ex ea commodo consequat." />
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+
+    </Grid>
+</Page>
+

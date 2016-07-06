@@ -1,0 +1,25 @@
+﻿<Application
+    x:Class="GithubStats.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GithubStats"
+    RequestedTheme="Light">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ResourceDictionary.xaml" />
+                <ResourceDictionary Source="PivotStyles.xaml" />
+
+            </ResourceDictionary.MergedDictionaries>
+            <SolidColorBrush x:Key="currentThemeColor" Color="#007aff"></SolidColorBrush>
+            <SolidColorBrush x:Key="blueColor" Color="#007aff"></SolidColorBrush>
+            <SolidColorBrush x:Key="yellowColor" Color="#ffcc33"></SolidColorBrush>
+            <SolidColorBrush x:Key="greenColor" Color="#00c951"></SolidColorBrush>
+            <Style x:Key="EllipsisButton" TargetType="Button">
+                <Setter Property="Visibility" Value="Collapsed"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>

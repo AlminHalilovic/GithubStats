@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="PullToRefresh.UWP" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="PullToRefresh.UWP">
+				<NamedResource name="PullToRefresh.UWP.xr.xml" uri="ms-resource://PullToRefresh.UWP/Files/PullToRefresh.UWP/PullToRefresh.UWP.xr.xml">
+					<Candidate type="Path">
+						<Value>PullToRefresh.UWP\PullToRefresh.UWP.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="PullToRefresh.UWP.rd.xml" uri="ms-resource://PullToRefresh.UWP/Files/PullToRefresh.UWP/Properties/PullToRefresh.UWP.rd.xml">
+						<Candidate type="Path">
+							<Value>PullToRefresh.UWP\Properties\PullToRefresh.UWP.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://PullToRefresh.UWP/Files/PullToRefresh.UWP/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

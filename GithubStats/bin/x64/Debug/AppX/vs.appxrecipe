@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DORO-XE076779C</Machine>
+    <WindowsUser>almin_000</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>96b34565-16a4-4ee6-b6f5-0d1c856343ed</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\obj\x64\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>80943549D1376C3077240BE3E15858BCABE932ACFDD06237A3978CB4931DE211</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>96b34565-16a4-4ee6-b6f5-0d1c856343ed_1.0.0.0_x64__xan1zfys3baeg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>96b34565-16a4-4ee6-b6f5-0d1c856343ed_xan1zfys3baeg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>96b34565-16a4-4ee6-b6f5-0d1c856343ed</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=almin_000</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-23T09:45:38.403</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Assets\InnerCircle.png">
+      <PackagePath>Assets\InnerCircle.png</PackagePath>
+      <Modified>2016-05-20T20:16:10.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-06-04T20:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Assets\logo.jpg">
+      <PackagePath>Assets\logo.jpg</PackagePath>
+      <Modified>2016-05-19T21:46:51.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Assets\OuterCircle.png">
+      <PackagePath>Assets\OuterCircle.png</PackagePath>
+      <Modified>2016-05-20T20:16:10.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-04T20:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-04T20:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-04T20:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-04T20:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-04T20:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-04T20:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2015-09-09T22:01:25.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\entrypoint\GithubStats.exe">
+      <PackagePath>entrypoint\GithubStats.exe</PackagePath>
+      <Modified>2016-05-23T09:45:34.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\GithubStats.exe">
+      <PackagePath>GithubStats.exe</PackagePath>
+      <Modified>2016-05-23T09:45:38.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\GithubStats.xr.xml">
+      <PackagePath>GithubStats.xr.xml</PackagePath>
+      <Modified>2016-05-22T13:59:09.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2015-09-09T22:00:36.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2015-09-09T22:00:36.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2015-09-09T22:00:21.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-03-14T23:01:06.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Octokit.dll">
+      <PackagePath>Octokit.dll</PackagePath>
+      <Modified>2016-05-19T19:00:51.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2016-05-19T13:53:47.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\PullToRefresh.UWP.winmd">
+      <PackagePath>PullToRefresh.UWP.winmd</PackagePath>
+      <Modified>2016-05-20T20:27:49.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\PullToRefresh.UWP\Properties\PullToRefresh.UWP.rd.xml">
+      <PackagePath>PullToRefresh.UWP\Properties\PullToRefresh.UWP.rd.xml</PackagePath>
+      <Modified>2016-05-20T20:27:49.702</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\PullToRefresh.UWP\PullToRefresh.UWP.xr.xml">
+      <PackagePath>PullToRefresh.UWP\PullToRefresh.UWP.xr.xml</PackagePath>
+      <Modified>2016-05-20T20:27:49.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-05-23T09:45:36.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\SQLite.Net.Async.dll">
+      <PackagePath>SQLite.Net.Async.dll</PackagePath>
+      <Modified>2016-05-22T18:12:39.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\SQLite.Net.dll">
+      <PackagePath>SQLite.Net.dll</PackagePath>
+      <Modified>2016-05-14T12:37:26.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\SQLite.Net.Platform.WinRT.dll">
+      <PackagePath>SQLite.Net.Platform.WinRT.dll</PackagePath>
+      <Modified>2016-05-14T12:37:26.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2016-05-14T12:27:45.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\SQLiteNetExtensions.dll">
+      <PackagePath>SQLiteNetExtensions.dll</PackagePath>
+      <Modified>2016-05-20T07:33:04.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2015-09-09T22:00:35.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2015-09-09T22:00:36.217</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2015-09-09T22:00:35.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2015-09-09T22:00:36.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2015-09-09T22:01:17.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2015-09-09T22:00:28.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2015-09-09T22:00:35.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+      <Modified>2015-09-09T22:00:28.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2015-09-09T22:00:34.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2015-09-09T22:00:22.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2015-09-09T22:00:28.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2015-09-09T22:00:23.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2015-09-09T22:00:22.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2015-09-09T22:00:37.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2015-09-09T22:00:23.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2015-09-09T22:00:36.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2015-09-09T22:00:37.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2015-09-09T22:00:29.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2015-09-09T22:00:42.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2015-09-09T22:00:43.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2015-09-09T22:00:40.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2015-09-09T22:00:44.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2015-09-09T22:00:45.884</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2015-09-09T22:00:45.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2015-09-09T22:00:45.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2015-09-09T22:00:46.362</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2015-09-09T22:00:45.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2015-09-09T22:00:23.440</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2015-09-09T22:00:46.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2015-09-09T22:00:47.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2015-09-09T22:00:46.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2015-09-09T22:00:46.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2015-09-09T22:00:46.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+      <Modified>2015-09-09T22:00:29.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2015-09-09T22:00:51.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+      <Modified>2015-09-09T22:00:23.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2015-09-09T22:00:47.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2015-09-09T22:00:52.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2015-09-09T22:00:26.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2015-09-09T22:00:24.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2015-09-09T22:00:25.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+      <Modified>2015-09-09T22:00:29.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2015-09-09T22:00:52.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-09-09T22:00:24.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2015-09-09T22:00:53.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2016-05-13T20:00:44.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Private.Networking.dll">
+      <PackagePath>System.Private.Networking.dll</PackagePath>
+      <Modified>2015-09-09T22:00:40.472</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2015-09-09T22:00:34.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2015-09-09T22:00:19.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+      <Modified>2015-09-09T22:00:27.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2015-09-09T22:00:54.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2015-09-09T22:00:53.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2015-09-09T22:01:26.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2015-09-09T22:01:27.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2015-09-09T22:01:27.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2015-09-09T22:00:53.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2015-09-09T22:00:55.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2015-09-09T22:00:54.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2015-09-09T22:00:55.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2015-09-09T22:00:55.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2015-09-09T22:00:58.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2015-09-09T22:00:58.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2015-09-09T22:00:57.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2015-09-09T22:00:57.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-09-09T22:00:28.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2015-09-09T22:00:58.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+      <Modified>2015-09-09T22:00:29.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2016-05-13T20:00:09.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2016-05-13T20:00:10.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2016-05-13T20:00:10.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-09-09T22:00:28.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+      <Modified>2015-09-09T22:00:28.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2015-09-09T22:01:00.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2015-09-09T22:01:00.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+      <Modified>2015-09-09T22:00:29.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2015-09-09T22:00:28.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2015-09-09T22:00:28.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2015-09-09T22:00:28.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2015-09-09T22:00:32.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2015-09-09T22:00:28.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+      <Modified>2015-09-09T22:00:30.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2015-09-09T22:00:35.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2015-09-09T22:01:01.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2015-09-09T22:01:03.362</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2015-09-09T22:01:04.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2015-09-09T22:01:06.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2015-09-09T22:00:19.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+      <Modified>2015-09-09T22:01:15.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2015-09-09T22:01:06.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2015-09-09T22:01:13.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2015-09-09T22:01:15.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+      <Modified>2015-09-09T22:00:30.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+      <Modified>2015-09-09T22:00:30.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+      <Modified>2015-09-09T22:00:30.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2015-09-09T22:01:15.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+      <Modified>2015-09-09T22:00:30.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2015-09-09T22:01:08.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2015-09-09T22:00:21.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2015-09-09T22:00:35.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\WinMetadata\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2016-05-13T19:52:16.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization.dll">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization.dll</PackagePath>
+      <Modified>2016-05-20T21:38:55.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Properties\WinRTXamlToolkit.Controls.DataVisualization.UWP.rd.xml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Properties\WinRTXamlToolkit.Controls.DataVisualization.UWP.rd.xml</PackagePath>
+      <Modified>2016-05-21T15:43:18.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\WinRTXamlToolkit.Controls.DataVisualization.xr.xml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\WinRTXamlToolkit.Controls.DataVisualization.xr.xml</PackagePath>
+      <Modified>2016-05-21T15:43:16.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\WinRTXamlToolkit.dll">
+      <PackagePath>WinRTXamlToolkit.dll</PackagePath>
+      <Modified>2016-05-20T21:38:55.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\WinRTXamlToolkit\Properties\WinRTXamlToolkit.UWP.rd.xml">
+      <PackagePath>WinRTXamlToolkit\Properties\WinRTXamlToolkit.UWP.rd.xml</PackagePath>
+      <Modified>2016-05-21T15:43:21.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\almin_000\Documents\Visual Studio 2015\Projects\GithubStats\GithubStats\bin\x64\Debug\Core\WinRTXamlToolkit\WinRTXamlToolkit.xr.xml">
+      <PackagePath>WinRTXamlToolkit\WinRTXamlToolkit.xr.xml</PackagePath>
+      <Modified>2016-05-21T15:43:16.491</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23117.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23117.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23117.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23117.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x64\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23117.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23117.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x86\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.23019.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.23019.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.23019.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.23019.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.23019.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.23019.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
